@@ -1,14 +1,6 @@
 <asset_meta_info>
 <asset
-name="U2DEX"
-versionURL=""
-thumbnailURL=""/>
-<asset
-name="uNote"
-versionURL=""
-thumbnailURL=""/>
-<asset
 name="uTemplate"
-versionURL=""
-thumbnailURL=""/>
+versionURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uTemplate/version_info.xml"
+thumbnailURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uTemplate/uTemplate_Icon_Small.png"/>
 </asset_meta_info>
