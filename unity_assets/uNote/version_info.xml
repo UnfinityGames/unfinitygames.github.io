@@ -1,0 +1,24 @@
+<updateinfo>
+<release version="1.11" changelog="June 2015: v1.11
+- Resolved a rare, but critical error relating to building for certain platforms." changelogURL="http://www.unfinitygames.com/interact/threads/unote-1-11-released.11/"/>
+
+<release version="1.10" changelog="June 2015: v1.10
+- Resolved a critical error relating to custom script integrations.
+- Resolved a critical error relating to adding uNote notes to custom scripts inside of prefabs.
+- Reworked a lot of the display code for notes to better support both the Note component, as well as the standalone PropertyDrawer.
+- The Note component and PropertyDrawer better respond to the resizing of the inspector panel.
+- Enabled wordwrapping for note titles.  This affects edit mode (while you're typing the title in) as well as display mode (when you're viewing the finished note).
+- Added an Examples folder that contains a script (uNoteHeroExample.cs) that should help outline how to integrate uNote notes into your custom scripts. 
+- Added a new feature: Parent Notes.  When enabled, uNote Notes can search their parent object(s) for notes, and display them in the scene along with their own note(s).
+- Added two new preferences: Display Parent Notes and Only Search First Parent.  Both preferences are used in conjunction with the new Parent Notes feature.
+- Fixed a class name that referenced our other plugin, U2DEX, rather than uNote.
+- Added some preventative measures to ensure that some note array indexes won't go out-of-bounds in certain circumstances.
+- The SceneView note box is much better at correctly handling the resizing of the note array (adding or removing notes).
+- Enabled wordwrapping for note titles in the SceneView note box.
+- Reworked how the SceneView note box is displayed.  It's much more responsive to changes to the SceneView window size.
+- Improved SceneView Note rendering with the Light skin in Unity versions earlier than Unity 5.
+- Added a bit of space near the top of the Note PropertyDrawer in Unity versions earlier than Unity 5 (to keep styling more consistent across all versions).
+- Update the Readme with an Examples section." changelogURL="http://www.unfinitygames.com/interact/threads/unote-1-10-submitted.10/"/>
+<release version="1.00" changelog="April 2015: v1.00
+- Initial Release" changelogURL=""/>
+</updateinfo>

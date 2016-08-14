@@ -1,0 +1,76 @@
+<updateinfo>
+<release version="1.40" changelog="January 2016: 1.40 Release
+- Fixed a bug that allowed snapping to function during play-mode.
+- Added an option to disable entries in the Applicable Classes list, on a per-class basis.
+- Fixed an issue where objects without snapping could have their positions snapped, if the previously-selected object had snapping enabled.
+- Updated the Applicable Classes help window (to reflect the new per-class toggle).
+- A few other small fixes/adjustments." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-40-released.13/"/>
+<release version="1.33" changelog="August 2015: 1.33 Release
+- Added support for grid sizes lower than 1.  Note that this is still not recommended, but the option is now available.
+- Clamped the grid size's low end to 0.1, rather than 1.
+- Added a warning help box when grid sizes are below 1.
+- Clamped the grid scale to 'Large' or below when using a grid size less than 1, in an effort to keep the editor responsive when rendering many grid lines.
+- Cleaned up a bit." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-33-released.12/"/>
+<release version="1.32" changelog="April 2015: v1.32
+- Fixed a rare but critical bug regarding certain Namespace names and Applicable Classes." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-32-released.9/"/>
+<release version="1.31" changelog="April 2015: v1.31
+- Changed the component menu structure to better align with our new plugin, uNote.  The new path is Component->Unfinity Games->U2DEX.
+- Fixed a couple of possible sprite lighting bugs caused by changes in Unity 5's lighting system." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-31-released.8/"/>
+<release version="1.30" changelog="March 2015: v1.30 Release
+- Changed one GetComponent call for full compatibility for Unity 5.  No API updater needed.
+- Removed support for Unity versions older than Unity 4.3.  U2DEX now supports Unity 4.3 through Unity 5.
+- Changed U2DEX's namespace from u2dex to UnfinityGames.U2DEX.
+- Fixed multiple bugs related to the u2dexGrid and perspective scene cameras.
+- Added new Grid Scale options to u2dexGrid.  You can now select from multiple sizes, in case larger sizes slow down your editor too much.
+- Renamed u2dexGrid's component menu entry from 'Grid' to 'U2DEX Grid'.
+- Improved how Grid Size's X and Y values work in the u2dexGridInspector.
+- Fixed a bug where u2dexGrid wasn't resetting the Gizmo.color to whatever value it was before rendering the grid.
+- Restructured the U2DEX directory.  U2DEX is now an Unfinity Games folder, as we now have a Shared folder for common utilities between our plugins.
+- Moved our images into Editor Default Resources.  This means that our images will never be included in your builds.
+- Drastically improved support for both the Light and Dark editor skins.  We now fully support both.
+- Consolidated our Editor Events into one file, as well as moving them to our new UnfinityGames.Common.EditorEvents namespace.
+- Added some missing tooltips to the u2dexGridInspector.
+- Changed the Updater and Changelog Viewer to be asset-agnostic, as well as renaming them.
+- u2dexEditorPrefs is now UnfinityEditorPrefs, and now resides in the Shared folder.
+- Fixed some Transform Inspector inconsistencies regarding text color and foldout icon sizes.
+- Fixed an issue with the Help dialog's 'Close' button not actually closing the dialog.
+- Removed u2dexMenu.cs, as it was no longer needed.
+- Did some clean up in all of our classes and added some extra comments where needed.
+- Updated our NGUISupport.unitypackage.
+- Added a warning in U2DEX's preferences that will show up if NGUI is detected, but the user hasn't imported our support package.
+- Moved FixIfNaN into the base TransformInspector2D class, as it didn't need to be in every child class.
+- Clamped the low-end of u2dexGrid's size to 1, as values below 1 unit behaved erratically in Unity.
+- Improved support for moving U2DEX's folder to another sub-folder in the project.  U2DEX no longer assumes it's in the root directory. 
+- Resolved an Editor GUI Repaint issue when going into or leaving play mode.
+- The UnfinityUpdater will now close when the user has chosen to view a changelog on the internet.
+- Updated all of U2DEX's Asset Store/Promotional images." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-30-released.7/"/>
+<release version="1.20" changelog="August 2014: v1.20 Release
+- Renamed the Grid component to u2dexGrid for better name continuity.  See the Updating section in the Readme to find out how this affects you.
+- Renamed the GridInspector to u2dexGridInspector for better name continuity.
+- Moved everything U2DEX-related to the Unity Preferences area, under U2DEX.
+- Added additional settings to the new Preference menu.
+- Settings and Preferences are now saved to EditorPrefs, not a settings file.  The old settings file can be deleted.
+- Preferences will now follow you between projects, so you don't have to configure settings for every project.
+- Separated out some Editor UI stuff so it's not tied down to an EditorWindow.  
+- Fixed some typos in variable declarations.
+- Rewrote the grid component so it draws a grid over the entire screen, even while zoomed out.
+- Added Pixel Per Meter support to the Grid Component.
+- Added a fix for an incompatibility with NGUI (unpack the NGUI Support .unitypackage).
+- Added an option to use the NGUI Transform Inspector instead of the U2DEX Transform Inspector.
+- Reworked the U2DEX Grid Inspector a bit." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-20-released.6/"/>
+<release version="1.10" changelog="December 2013: v1.10 Beta
+- Added full support for Unity 3.x versions, along with the already-supported 4.x versions.
+- Added full support for Unity's 2D Sprites! (Requires Unity 4.3)
+- Added support for play-mode editing.  Everything now works if you pause and edit while a game is running.
+- Fixed a rare error that could occur when using MonoDevelop on versions greater than 4.2.1.
+- Bulletproofed some code that could, in theory, throw some non-descriptive errors.
+- Added a utility to check if new updates are available.
+- Added a utility to view the changelog for the newest update, if there is one.
+- Incremented version number of the save file format (format changed slightly, all old save files will be upgraded...)
+- Re-labeled some controls so they're easier to understand at a glance.
+- Changed some of the Inspectors and Editor Windows to better match Unity 4.3 (Only applies if using 4.3 or greater)
+- Removed the need for Orthello sprites to have a valid material before the Transform Inspector would apply.
+- Added a note on Orthello sprite Inspectors if the material is null." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-10-released.5/"/>
+<release version="1.00" changelog="October 2013: v1.00 Beta
+- Initial Release" changelogURL=""/>
+</updateinfo>
