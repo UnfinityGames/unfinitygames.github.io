@@ -1,4 +1,21 @@
 <updateinfo>
+<release version="0.55" changelog="September 2016: v0.55
+- Packed images into the DLLs, to reduce project clutter.
+- Added a brand new, slicker Unfinity Games Updater, that'll be used from now on.
+- Updated the Changelog Viewer.  It's now a pop-up modal window inside of the new Updater.
+- Deprecated the old method call to the old updater -- if you're using any other Unfinity Games assets, you'll get a warning in the console.
+  This'll go away automatically when those assets get updated to the newest version.
+- Fixed a minor bug regarding checking for whitespace.
+- Bulletproofed some potential null-reference-throwing core functions.
+- Implemented a new way to cache internal resources.  Performance and loading reliability have been improved!
+- Added a new Layout Flip option in the Preferences, allowing for the Options panel to be on the left or right.
+- Fixed an issue where method names weren't being added to the hoverable tooltip.
+- Added a new options menu button to the Script Creation Wizard.  It's located in the upper right-hand side of the window.
+- Added an option to open a dockable version of the Script Creation Wizard. (Located in the new options menu)
+- Added an option to open the Unity Preferences. (Located in the new options menu)
+- Added an option to reset the Script Creation Wizard's window size. (Located in the new options menu)
+- Performance has been improved across the board!
+- Other small bugfixes/changes." changelogURL="http://www.unfinitygames.com/interact/threads/utemplate-0-55-released.19/"/>
 <release version="0.54" changelog="July 2016: v0.54
 - Fixed a few minor bugs.
 - Added support for the automatic filling-in of base.Method calls for overridden methods.
