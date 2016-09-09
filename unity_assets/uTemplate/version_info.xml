@@ -3,8 +3,7 @@
 - Packed images into the DLLs, to reduce project clutter.
 - Added a brand new, slicker Unfinity Games Updater, that'll be used from now on.
 - Updated the Changelog Viewer.  It's now a pop-up modal window inside of the new Updater.
-- Deprecated the old method call to the old updater -- if you're using any other Unfinity Games assets, you'll get a warning in the console.
-  This'll go away automatically when those assets get updated to the newest version.
+- Deprecated the old method call to the old updater -- if you're using any other Unfinity Games assets, you'll get a warning in the console.  This'll go away automatically when those assets get updated to the newest version.
 - Fixed a minor bug regarding checking for whitespace.
 - Bulletproofed some potential null-reference-throwing core functions.
 - Implemented a new way to cache internal resources.  Performance and loading reliability have been improved!
