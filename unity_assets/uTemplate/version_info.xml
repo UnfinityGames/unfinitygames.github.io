@@ -1,4 +1,10 @@
 <updateinfo>
+<release version="0.56" changelog="September 2016: v0.56
+- Added a new feature: UI Resizing! The preview panel and options panel can now be resized.
+- When switching to a dockable window, Keep Open is now enabled by default (so you can dock it!).
+- The absolute width of the Preferences GUI has been removed.  It'll now do its best to scale with the size of the Preferences window.
+- Changed how method toggle info is stored.  Due to methods potentially having the same name, the entire method signature is now stored to ensure uniqueness.
+- Other small bugfixes/changes." changelogURL="http://www.unfinitygames.com/interact/threads/utemplate-beta-0-56-released.20/"/>
 <release version="0.55" changelog="September 2016: v0.55
 - Packed images into the DLLs, to reduce project clutter.
 - Added a brand new, slicker Unfinity Games Updater, that'll be used from now on.
