@@ -1,7 +1,14 @@
 <updateinfo>
+<release version="1.15" changelog="November 2016: v1.15
+- Updated the Shared code to be more in-line with our new plugin, uTemplate.
+- Removed the forced fixed-width of the Preferences menu. It'll now do its best to scale to the width of the window.
+- Hooked uNote up to the new Unfinity Games Updater.
+- uNote has been moved to a DLL. This is not only easier to import (less chances for errors, or duplicated scripts), but it makes it easier to move around within your project.
+- Improved the speed of various internal method calls.
+- Fixed a few typos.
+- A few other small fixes/adjustments." changelogURL="http://www.unfinitygames.com/interact/threads/unote-1-15-released.22/"/>
 <release version="1.11" changelog="June 2015: v1.11
 - Resolved a rare, but critical error relating to building for certain platforms." changelogURL="http://www.unfinitygames.com/interact/threads/unote-1-11-released.11/"/>
-
 <release version="1.10" changelog="June 2015: v1.10
 - Resolved a critical error relating to custom script integrations.
 - Resolved a critical error relating to adding uNote notes to custom scripts inside of prefabs.

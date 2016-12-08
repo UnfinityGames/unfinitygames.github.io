@@ -1,5 +1,23 @@
 <asset_meta_info>
-<asset name="U2DEX" versionURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/U2DEX/version_info.xml" thumbnailURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/U2DEX/Icon.png"/>
-<asset name="uNote" versionURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uNote/version_info.xml" thumbnailURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uNote/Icon.png"/>
-<asset name="uTemplate" versionURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uTemplate/version_info.xml" thumbnailURL="https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uTemplate/Icon.png"/>
+	<asset>
+		<name>U2DEX</name>	
+		<tagline>Streamlined 2D Editing</tagline>
+		<versionURL>https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/U2DEX/version_info.xml</versionURL>
+		<thumbnailURL>https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/U2DEX/Icon.png</thumbnailURL>
+		<moreInfoURL>http://u3d.as/5EC</moreInfoURL>	
+	</asset>
+	<asset>
+		<name>uNote</name>	
+		<tagline>Comments for Objects</tagline>
+		<versionURL>https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uNote/version_info.xml</versionURL>
+		<thumbnailURL>https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uNote/Icon.png</thumbnailURL>
+		<moreInfoURL>http://u3d.as/cLJ</moreInfoURL>	
+	</asset>
+	<asset>
+		<name>uTemplate</name>	
+		<tagline>Script Creation Simplified</tagline>
+		<versionURL>https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uTemplate/version_info.xml</versionURL>
+		<thumbnailURL>https://raw.githubusercontent.com/UnfinityGames/unfinitygames.github.io/master/unity_assets/uTemplate/Icon.png</thumbnailURL>
+		<moreInfoURL>http://unfinitygames.com/products/uTemplate</moreInfoURL>	
+	</asset>
 </asset_meta_info>

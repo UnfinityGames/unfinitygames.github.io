@@ -1,11 +1,26 @@
 <updateinfo>
-<release version="1.40" changelog="January 2016: 1.40 Release
+<release version="1.45" changelog="November 2016: v1.45 Release
+- Updated the Shared code to be more in-line with our new plugin, uTemplate.
+- Removed the forced fixed-width of the Preferences menu. It'll now do its best to scale to the width of the window.
+- Hooked U2DEX up to the new Unfinity Games Updater.
+- U2DEX has been moved to a DLL. This is not only easier to import (less chances for errors, or duplicated scripts), but it makes it easier to move around within your project.
+- Editor Default Resources has been removed. All of the resources needed by U2DEX are now compiled in the DLL, to help keep your project tidy.
+- Fixed a warning related to LookLikeControls.
+- Improved the speed of various internal method calls.
+- A few other small fixes/adjustments." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-45-released.21/"/>
+<release version="1.33" changelog="August 2015: 1.33 Release
+- Added support for grid sizes lower than 1.  Note that this is still not recommended, but the option is now available.
+- Clamped the grid size's low end to 0.1, rather than 1.
+- Added a warning help box when grid sizes are below 1.
+- Clamped the grid scale to 'Large' or below when using a grid size less than 1, in an effort to keep the editor responsive when rendering many grid lines.
+- Cleaned up a bit." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-33-released.12/"/>
+<release version="1.40" changelog="January 2016: v1.40 Release
 - Fixed a bug that allowed snapping to function during play-mode.
 - Added an option to disable entries in the Applicable Classes list, on a per-class basis.
 - Fixed an issue where objects without snapping could have their positions snapped, if the previously-selected object had snapping enabled.
 - Updated the Applicable Classes help window (to reflect the new per-class toggle).
 - A few other small fixes/adjustments." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-40-released.13/"/>
-<release version="1.33" changelog="August 2015: 1.33 Release
+<release version="1.33" changelog="August 2015: v1.33 Release
 - Added support for grid sizes lower than 1.  Note that this is still not recommended, but the option is now available.
 - Clamped the grid size's low end to 0.1, rather than 1.
 - Added a warning help box when grid sizes are below 1.
