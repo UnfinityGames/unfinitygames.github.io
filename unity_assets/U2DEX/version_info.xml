@@ -1,4 +1,9 @@
 <updateinfo>
+<release version="1.46" changelog="December 2016: v1.46 Release
+- Fixed a critical Reflection error in newer versions of Unity.
+- Altered the Preference saving so it detects and saves changes immediately, and more reliably.
+- Changed many of the internal Reflection calls to use the newer, more reliable methods used in uTemplate.
+- Fixed a case where the detection of custom Applicable Classes could fail." changelogURL="http://www.unfinitygames.com/interact/threads/u2dex-1-46-released.23/"/>
 <release version="1.45" changelog="November 2016: v1.45 Release
 - Updated the Shared code to be more in-line with our new plugin, uTemplate.
 - Removed the forced fixed-width of the Preferences menu. It'll now do its best to scale to the width of the window.
