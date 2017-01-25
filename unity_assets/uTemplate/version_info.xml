@@ -1,4 +1,27 @@
 <updateinfo>
+<release version="0.60" changelog="November 2016: v0.60b
+- uTemplate is now in stable beta.  Thanks to all the early beta testers!
+- Fixed a rare bug with the Unfinity Games Updater where the initial size would be too large if all available assets were installed at once.
+- Fixed a case where templates could be stored in the incorrect location, due to bad caching.
+- Fixed a case where method file tags could bleed into method name declarations, if no space inserted between them.
+- Subdirectories will now be searched properly when checking for installed templates.
+- Fixed a case where a space after a [DEFAULT] tag was required for proper parsing.
+- Added a new method tag: Unity version.  Tagging a method with this will hide the method if the current Unity version doesn't support it.
+- Updated a few of the built-in templates.
+- Added a new feature: Downloading Templates.  Templates can now be downloaded from uTemplate's Github repository.
+- Added a 'Download New Templates' entry to the Script Creation Wizard's options menu.
+- Updated/rewrote how template overrides are calculated.
+- Added downloaded templates to the override priority calculations.  Template priority is now Custom > Downloaded > Built-in.
+- Added a 'Refresh Window' entry to the Script Creation Wizard's option menu, and made F5 refresh the window.
+- Updated the template selection dropdown menu.  It now supports sub-menu sorting, based off of the directories your templates are in.  Great for organizing!
+- Added an asterisk to a template's dropdown display name if it's currently overriding another template.
+- Added a Shift+Control+T hotkey to open the Script Creation Wizard.
+- Extracted the Script Creation Wizard's MenuItem out of the DLL and into a separate file, so its location and hotkey can be changed freely.
+- Made some changes so uTemplate works as far back as Unity 4.7.0.
+- Added a specific GUI case in the Preset Window for when there's no Presets to display.
+- Fixed Create + Attach not working in Unity versions earlier than 5.3.
+- Added a preference option allowing verbose logging to be toggled on/off.
+- Other small bugfixes/changes." changelogURL="http://www.unfinitygames.com/interact/threads/utemplate-beta-0-60-released.25/"/>
 <release version="0.56" changelog="September 2016: v0.56
 - Added a new feature: UI Resizing! The preview panel and options panel can now be resized.
 - When switching to a dockable window, Keep Open is now enabled by default (so you can dock it!).
