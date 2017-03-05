@@ -1,4 +1,7 @@
 <updateinfo>
+<release version="1.47" changelog="March 2017: v1.47 Release
+- Fixed a case where Unity could load our Editor textures incorrectly, resulting in color-shifted images.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/u2dex-1-47-released.26/"/>
 <release version="1.46" changelog="December 2016: v1.46 Release
 - Fixed a critical Reflection error in newer versions of Unity.
 - Altered the Preference saving so it detects and saves changes immediately, and more reliably.

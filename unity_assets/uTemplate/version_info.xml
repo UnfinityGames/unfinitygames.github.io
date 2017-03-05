@@ -1,4 +1,13 @@
 <updateinfo>
+<release version="0.65" changelog="March 2017: v0.65b
+- Added a new feature to open newly-created scripts in the default IDE/text editor.
+- Added a new preference option to control whether or not scripts are automatically opened.
+- Added a new feature to allow quick-switching between an open and/or docked uTemplate window, and the currently-focused window whenever the currently-assigned quick-open hotkey is pressed (Control + Shift + T by default).
+- Created a workaround for OnSelectionChange methods not firing on unfocused windows.
+- The Script Creation Wizard will now auto-fill the path, and target object fields in the background, making docked windows more useful.
+- Fixed a case where single-file downloadable template wouldn't have their download button properly disabled after they've been installed.
+- Fixed a case where Unity would throw an error about unreadable UTF-8 encoding for downloaded templates, even though the text encoding was proper.
+- Fixed a case where Unity could load our Editor textures incorrectly, resulting in color-shifted images." changelogURL="https://www.unfinitygames.com/interact/threads/utemplate-beta-0-65-released.28/"/>
 <release version="0.60" changelog="November 2016: v0.60b
 - uTemplate is now in stable beta.  Thanks to all the early beta testers!
 - Fixed a rare bug with the Unfinity Games Updater where the initial size would be too large if all available assets were installed at once.

@@ -1,4 +1,7 @@
 <updateinfo>
+<release version="1.16" changelog="March 2017: v1.16 Release
+- Fixed a case where Unity could load our Editor textures incorrectly, resulting in color-shifted images.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/unote-1-16-released.27/"/>
 <release version="1.15" changelog="November 2016: v1.15
 - Updated the Shared code to be more in-line with our new plugin, uTemplate.
 - Removed the forced fixed-width of the Preferences menu. It'll now do its best to scale to the width of the window.
