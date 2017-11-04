@@ -1,4 +1,12 @@
 <updateinfo>
+<release version="0.70" changelog="November 2017: v0.70b
+- Updated a few things to ensure proper support for Unity 2017.1.
+- Fixed a case where templates wouldn't be loaded properly if they had invalid directory separators in the file path.
+- Fixed the 'Keep Open?' label being cut off in newer versions of Unity (5.5+).
+- Fixed the dropdown buttons having inconsistent height across newer versions of Unity (5.5+).
+- Forced all of the lower dialog buttons to have the same height, to ensure consistency.
+- Fixed a case where Unity could load some textures for the Unfinity Games Updater incorrectly, resulting in color-shifted images.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/utemplate-beta-0-70-released.31/"/>
 <release version="0.65" changelog="March 2017: v0.65b
 - Added a new feature to open newly-created scripts in the default IDE/text editor.
 - Added a new preference option to control whether or not scripts are automatically opened.

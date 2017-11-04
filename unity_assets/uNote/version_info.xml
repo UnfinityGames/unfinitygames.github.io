@@ -1,4 +1,8 @@
 <updateinfo>
+<release version="1.17" changelog="November 2017: v1.17 Release
+- Fixed a case where Unity could load some textures for the Unfinity Games Updater incorrectly, resulting in color-shifted images.
+- Fixed a potential case where the uNote Property Drawer could retrieve an incorrect inspector width from Unity, leading to an extra-wide Note drawer.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/unote-1-17-released.30/"/>
 <release version="1.16" changelog="March 2017: v1.16 Release
 - Fixed a case where Unity could load our Editor textures incorrectly, resulting in color-shifted images.
 - Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/unote-1-16-released.27/"/>

@@ -1,4 +1,7 @@
 <updateinfo>
+<release version="1.48" changelog="November 2017: v1.48 Release
+- Fixed a case where Unity could load some textures for the Unfinity Games Updater incorrectly, resulting in color-shifted images.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/u2dex-1-48-released.29/"/>
 <release version="1.47" changelog="March 2017: v1.47 Release
 - Fixed a case where Unity could load our Editor textures incorrectly, resulting in color-shifted images.
 - Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/u2dex-1-47-released.26/"/>
