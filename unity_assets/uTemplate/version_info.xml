@@ -1,5 +1,5 @@
 <updateinfo>
-<release version="1.10 changelog="September 2019: v1.10
+<release version="1.10" changelog="September 2019: v1.10
 - Resolved issues with Unity 2019.
 - Compressed embedded resources, resulting in a smaller overall package size.
 - Fixed an issue where Texture2D.LoadImage could load our embedded editor resources with incorrect RGB values.
