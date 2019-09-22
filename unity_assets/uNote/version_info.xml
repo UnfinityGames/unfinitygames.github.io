@@ -1,4 +1,14 @@
 <updateinfo>
+<release version="1.17" changelog="September 2019: v1.20
+- Resolved issues with Unity 2019.
+- Compressed embedded resources, resulting in a smaller overall package size.
+- Fixed an issue where Texture2D.LoadImage could load our embedded editor resources with incorrect RGB values.
+- Added better support for the new Editor themes coming in Unity 2019.3.
+- Fixed the Note Title or Note Content labels occasionally becoming highlighted after leaving Edit Mode.
+- Added support for hotkey switching between fields in Edit Mode (Control + Tab to switch).
+- Added a highlight color to the Save Note button if it's currently in focus.
+- Added the ability to Save a Note by hitting Enter if the Save Note button is in focus.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/unote-1-20-released.34/"/>
 <release version="1.17" changelog="November 2017: v1.17 Release
 - Fixed a case where Unity could load some textures for the Unfinity Games Updater incorrectly, resulting in color-shifted images.
 - Fixed a potential case where the uNote Property Drawer could retrieve an incorrect inspector width from Unity, leading to an extra-wide Note drawer.
