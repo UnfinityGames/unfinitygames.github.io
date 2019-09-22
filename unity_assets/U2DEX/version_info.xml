@@ -1,4 +1,17 @@
 <updateinfo>
+<release version="1.50" changelog="September 2019: v1.50
+- Resolved issues with Unity 2019.
+- Compressed embedded resources, resulting in a smaller overall package size.
+- Fixed an issue where Texture2D.LoadImage could load our embedded editor resources with incorrect RGB values.
+- Added better support for the new Editor themes coming in Unity 2019.3.
+- Updated some styling for U2DEX's Preferences so they render properly in the new Preferences Window (2018.3 and above).
+- Updated the Grid Size controls to render more consistently between the Inspector and Preferences.
+- Snapping options are now saved immediately, once a change is detected.
+- Improved how the U2DEX Grid Gizmo renders in the Scene View.
+- Fixed Reflection failing to find the new Preferences Window class introduced in Unity 2018.3.
+- Removed official support for Orthello, as the product is no longer maintained.
+- Removed the height restriction on the Applicable Classes list.  It'll now properly use any available vertical space.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/u2dex-1-50-released.33/"/>
 <release version="1.48" changelog="November 2017: v1.48 Release
 - Fixed a case where Unity could load some textures for the Unfinity Games Updater incorrectly, resulting in color-shifted images.
 - Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/u2dex-1-48-released.29/"/>
