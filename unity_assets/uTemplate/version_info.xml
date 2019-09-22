@@ -1,4 +1,13 @@
 <updateinfo>
+<release version="1.10 changelog="September 2019: v1.10
+- Resolved issues with Unity 2019.
+- Compressed embedded resources, resulting in a smaller overall package size.
+- Fixed an issue where Texture2D.LoadImage could load our embedded editor resources with incorrect RGB values.
+- Added better support for the new Editor themes coming in Unity 2019.3.
+- Added a new system to support user-definable Keywords.
+- Changed the SCRIPTNAME, NICESCRIPTNAME, and TARGETCLASSNAME Keywords over to the new user-definable system.
+- TARGETCLASSNAME will now output a commented-out error message if it's encountered in a non-editor script.
+- Updated the Shared code to the latest version." changelogURL="https://www.unfinitygames.com/interact/threads/utemplate-1-10-released.35/"/>
 <release version="0.70" changelog="November 2017: v0.70b
 - Updated a few things to ensure proper support for Unity 2017.1.
 - Fixed a case where templates wouldn't be loaded properly if they had invalid directory separators in the file path.
